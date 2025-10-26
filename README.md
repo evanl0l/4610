@@ -34,6 +34,47 @@ On certain occasions, there is a discount that is applicable to group session pa
 
 ![App Screenshot](https://github.com/colbycannizzaro/MIST4610GroupProject1/blob/25ca4b8bba8a1a8e8b96cb06319b74019f6be103/unknown.png)
 ## Data Dictionary:
+<img width="679" height="281" alt="image" src="https://github.com/user-attachments/assets/bbd80e1c-6e77-43ef-8048-802814ea3224" />
+
+<img width="673" height="459" alt="image" src="https://github.com/user-attachments/assets/8c85b006-a72f-4933-b1b8-1108af6fcc98" />
+
+<img width="668" height="249" alt="image" src="https://github.com/user-attachments/assets/25bcfd71-0021-49d6-97b2-48c8abc8b4c1" />
+
+<img width="727" height="526" alt="image" src="https://github.com/user-attachments/assets/76a6ed39-bc8b-493e-b0ec-62e0f7be7fb4" />
+
+<img width="441" height="766" alt="image" src="https://github.com/user-attachments/assets/24d8a87a-f4a6-461b-86eb-0142eb4f15d0" />
+
+<img width="709" height="698" alt="image" src="https://github.com/user-attachments/assets/c7090a04-82b5-4fe0-859f-5248d6f274ec" />
+
+<img width="663" height="318" alt="image" src="https://github.com/user-attachments/assets/7c2800ae-bad6-46df-aeb9-03076a97e07f" />
+
+<img width="685" height="314" alt="image" src="https://github.com/user-attachments/assets/a783ec91-a925-483e-9451-40dcf4c1279f" />
+
+<img width="669" height="206" alt="image" src="https://github.com/user-attachments/assets/f643f94b-abae-4d7a-950a-23edc93a3568" />
+
+<img width="673" height="741" alt="image" src="https://github.com/user-attachments/assets/630a22b4-e2da-472f-9e12-d4ace11abed6" />
+
+<img width="680" height="295" alt="image" src="https://github.com/user-attachments/assets/92d25512-20e6-423e-ba0a-4dedd828ead2" />
+
+<img width="657" height="541" alt="image" src="https://github.com/user-attachments/assets/543d8720-7237-4dd9-9c64-e17c35bd9adb" />
+
+<img width="672" height="185" alt="image" src="https://github.com/user-attachments/assets/630c3081-9734-43e1-a765-1094480328f3" />
+
+<img width="660" height="336" alt="image" src="https://github.com/user-attachments/assets/786ec467-bde3-4238-a80e-d81467ec5a15" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Queries:
 USE ns_F25MIST4610_62755_Group5;
 
