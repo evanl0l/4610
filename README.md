@@ -64,6 +64,8 @@ Class_session has a 1-1 identifying relationship with class_type; a sports sessi
 <img width="660" height="336" alt="image" src="https://github.com/user-attachments/assets/786ec467-bde3-4238-a80e-d81467ec5a15" />
 
 ## Queries:
+<img width="638" height="483" alt="image" src="https://github.com/user-attachments/assets/9a009fbb-9404-4453-bdc7-61a4382d09d5" />
+
 USE ns_F25MIST4610_62755_Group5;
 
 ### Simple
