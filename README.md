@@ -8,7 +8,7 @@ A brief description of what this project does and who it's for
 ## Team Members:
 1. Armaan Bhasin [@armaanbhasin](https://www.github.com/taralbpatel)
 2. Colby Cannizzaro [@colbycannizzaro](https://github.com/colbycannizzaro/MIST4610GroupProject1)
-3. Evan Liu [@evanliu](https://github.com/evanl0l)
+3. Evan Liu [@evanliu](https://github.com/evanl0l/4610)
 4. Theresa Nguyen[@ripleykurtz](https://www.github.com/RipleyKurtz)
 5. Allison Ramirez Diaz [@sequoyethsimpson](https://www.github.com/quoysimpson)
 
@@ -27,16 +27,14 @@ The Department of Recreation Sports has many different clients that sign up for 
 
 On certain occasions, there is a discount that is applicable to group session packages. The Department of Recreation Sports offers an early semester discount that takes 25% the original price for all types of group packages. Halfway through the semester, the department also offers a 50% discount on the original price for all types of group packages.
 
-
-
-
+<img width="626" height="427" alt="image" src="https://github.com/user-attachments/assets/b98b5089-0cb8-4408-a20f-e3474e4e2727" />
 
 ## Data Model:
 There is a M-M relationship between staff and certifications–the associative entity created is certifications_obtained. A staff can have many certifications and a certificate can be obtained by many individuals. There is a 1-M non-identifying relationship between staff and class_type. A staff can teach multiple classes and a class has one default instructor(staff). There is a 1-M relationship between staff and class_session; a staff can be an instructor for many classes. Another 1-M relationship between staff and class_session shows that a staff can also be a fitness monitor for many classes. Lastly, there is a 1-M identifying relationship between staff and pt_session showing that a staff member can be an instructor for many personal training sessions. There is also a 1-M identifying relationship between pt_session and client. A personal training session can only be created if an instructor and client schedule the session.
 Class_session has a 1-1 identifying relationship with class_type; a sports session is identified based on the type of class it is. There is also a M-M identifying relationship between class_session and client–the associative entity between the two is class_attendance. The records of class attendance is dependent on the type of class a session is and the number of clients that attend each session. 
 
 
-![App Screenshot](https://github.com/colbycannizzaro/MIST4610GroupProject1/blob/25ca4b8bba8a1a8e8b96cb06319b74019f6be103/unknown.png)
+
 ## Data Dictionary:
 <img width="679" height="281" alt="image" src="https://github.com/user-attachments/assets/bbd80e1c-6e77-43ef-8048-802814ea3224" />
 
@@ -66,44 +64,33 @@ Class_session has a 1-1 identifying relationship with class_type; a sports sessi
 
 <img width="660" height="336" alt="image" src="https://github.com/user-attachments/assets/786ec467-bde3-4238-a80e-d81467ec5a15" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Queries:
 USE ns_F25MIST4610_62755_Group5;
 
 ### Simple
 1. List the class types offered
 
-Insert Screenshot Here
+<img width="627" height="219" alt="image" src="https://github.com/user-attachments/assets/2db468af-b94b-4c65-a3cc-c60749450b1e" />
+
 
 This query provides a summary of the different activity categories that are offered by the Department of Recreation Sports, making it quick for a manager to observe.
 
 2. List all client information - Theresa
 
-Insert Screenshot Here
+<img width="625" height="302" alt="image" src="https://github.com/user-attachments/assets/501a27b9-1ea7-41d1-bb48-809965d05c0f" />
+
 
 This query provides the necessary information about the clients of Recreation Sports that a manager would need to store.
 
 3. List classes on a Tuesday in the afternoon (12pm–7pm)
 
-Insert Screenshot Here
+<img width="626" height="315" alt="image" src="https://github.com/user-attachments/assets/d082b9c5-c455-43cd-aefb-b58bcfdf0c69" />
 
 From a managerial perspective, this query helps identify which classes are scheduled in the afternoon on Tuesdays. Managers can use this to balance instructor workloads, allocate resources and ensure classes are spread evenly throughout the day.
 
 4. List average package prices of clients that attend more than five classes a week.-Evan
 
-Insert Screenshot Here
+<img width="626" height="312" alt="image" src="https://github.com/user-attachments/assets/7bbb3f2f-d9a0-4c85-8c93-8ceecb0499da" />
 
 This query provides important information about clients who attend a higher number of classes per week.
 
@@ -111,37 +98,37 @@ This query provides important information about clients who attend a higher numb
 
 5. List the contact information including name, number, and email of all staff that have the ACE certification - Allison
 
-Insert Screenshot Here
+<img width="625" height="234" alt="image" src="https://github.com/user-attachments/assets/d3f2da61-e57a-4b14-b459-702e0165072f" />
 
 This query lists information for any staff member that has an ACE certification, which will be useful from a managerial perspective to identify specific staff members needed for classes requiring the ACE certification. This query can also be edited to identify staff members with other certifications. 
 
 6. List all clients who have come to more than 5 group fitness class 
 
-Insert Screenshot Here
+<img width="624" height="243" alt="image" src="https://github.com/user-attachments/assets/4f03f2fe-f6e2-4633-93c8-caaf793e1a26" />
 
 This query is helpful from a managerial perspective to identify repeat clients for group fitness classes.
 
 7. List all students who have taken a morning yoga class and morning cycle class before 
 
-Insert Screenshot Here
+<img width="625" height="162" alt="image" src="https://github.com/user-attachments/assets/b05eab44-a651-430c-8f4e-772413f926c1" />
 
 From a managerial perspective, UGA Fitness and Wellness likes to see which classes are popular among students to know if they are worth having. This query returns the number of students that attended cycling classes on Thursdays.  
 
 8. List the client who attended both yoga sessions on September 20th, 2025. - Colby
 
-Insert Screenshot Here
+<img width="626" height="194" alt="image" src="https://github.com/user-attachments/assets/c6734187-d568-4d4e-945b-338f3c0cd5d6" />
 
 From a managerial perspective, this query helps us identify highly engaged clients who attend multiple sessions of the same activity in one day. We wanted to see if there were any clients committed enough to attend two sessions in one day.
 
 9. List the most active client's based of attendance who have attended to more than 3 classes 
 
-Insert Screenshot Here
+<img width="625" height="309" alt="image" src="https://github.com/user-attachments/assets/66106007-ba47-44d5-96e1-3460abf8db71" />
 
 From a managerial perspective, UGA Fitness and wellness can use this query to identify highly active clients, as frequent attendance predicts stronger retention. This helps managers target loyalty efforts and encourage continued engagement.
 
 10. List the instructor's name, the number of sessions, the date the session starts and the client's names based on the class being in Studio A
 
-Insert Screenshot Here
+<img width="625" height="313" alt="image" src="https://github.com/user-attachments/assets/780fbaa6-0215-4563-8505-f47deb7aae60" />
 
 This query can be used to identify information on a specific class session as long as the studio is A. This can also be changed to identify information on other studios.
 
@@ -160,5 +147,7 @@ This query can be used to identify information on a specific class session as lo
 
 
 
-## Database Information:
-Data Base Information: Name of the database: ns_F25MIST4610_62755_Group5
+## Database Information: 
+1. Name of the database: ns_F25MIST4610_62755_Group5
+2. Each query has been bookmarked in the database as a stored procedure for easy execution and grading. Stored procedures follow the naming convention TP_Qx where x corresponds to the query number. For example:
+CALL TP_Q1();
