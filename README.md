@@ -13,24 +13,28 @@ A brief description of what this project does and who it's for
 5. Allison Ramirez Diaz [@sequoyethsimpson](https://www.github.com/quoysimpson)
 
 ## Scenario Description:
-The UGA Department of Recreational Sports in the Division of Student Affairs wants to create a database that keeps track of information about the various sports sessions offered, the staff that run the activities, and the clients that wish to participate in these activities. 
+The UGA Department of Recreation Sports in the Division of Student Affairs wants to create a database that keeps track of information about the various sports sessions offered, the staff that run the activities, and the clients that wish to participate in these activities. 
+
+They wish to track the staff that work at Recreation Sports. They would like to store information about a staff member such as their name, email address, and phone number. A staff member can be an instructor or a fitness monitor for multiple classes. 
+
+Each staff member also has at least one certification. The Department would like to store information about the certification name and a description of the certification. They would also like to know what certifications each staff member has obtained, the date it was obtained, and the expiration date for that certification.
+
+The Department of Recreation Sports has a variety of classes to offer to clients at UGA. They would like to keep track of the types of activities offered for a session and the type of activity it is. They would also like to keep information about the start and end times for each session, the day of the week that it occurs on, the semester it is offered, and the location of the session. A session can be either a group or small group–a small group session is offered quarterly. Each session also has an instructor responsible for a specific class and a fitness monitor that overlooks a class. They also need to track how many clients attend each session.
+
+In addition to group sessions, Recreation Sports also offers personal training sessions. Each session is personalized, so they would like to track the session date, start time, and end time for each session. An instructor can teach many personal training sessions and a client can sign up for multiple sessions.
+
+The Department of Recreation Sports has many different clients that sign up for the activities that they offer. They would like to store information about a client such as their name, email, and phone number. Recreational sports are offered to all types of clients such as students, faculty, and alumni/UGA affiliates. Based on the type of client they are, a client will pay a different amount according to the package type they choose to purchase. For group, small group, and personal training sessions; there is a fixed price for the 3 standard types of clients.
+
+On certain occasions, there is a discount that is applicable to group session packages. The Department of Recreation Sports offers an early semester discount that takes 25% the original price for all types of group packages. Halfway through the semester, the department also offers a 50% discount on the original price for all types of group packages.
 
 
 
 
 
 ## Data Model:
-They wish to track the staff that work at Recreational Sports. They would like to store information about a staff member such as their name, email address, and phone number. A staff member can be an instructor or a fitness monitor for multiple classes. 
+There is a M-M relationship between staff and certifications–the associative entity created is certifications_obtained. A staff can have many certifications and a certificate can be obtained by many individuals. There is a 1-M non-identifying relationship between staff and class_type. A staff can teach multiple classes and a class has one default instructor(staff). There is a 1-M relationship between staff and class_session; a staff can be an instructor for many classes. Another 1-M relationship between staff and class_session shows that a staff can also be a fitness monitor for many classes. Lastly, there is a 1-M identifying relationship between staff and pt_session showing that a staff member can be an instructor for many personal training sessions. There is also a 1-M identifying relationship between pt_session and client. A personal training session can only be created if an instructor and client schedule the session.
+Class_session has a 1-1 identifying relationship with class_type; a sports session is identified based on the type of class it is. There is also a M-M identifying relationship between class_session and client–the associative entity between the two is class_attendance. The records of class attendance is dependent on the type of class a session is and the number of clients that attend each session. 
 
-Each staff member also has at least one certification. The Department would like to store information about the certification name and a description of the certification. They would also like to know what certifications each staff member has obtained, the date it was obtained, and the expiration date for that certification.
-
-The Department of Recreational Sports has a variety of classes to offer to clients at UGA. They would like to keep track of the types of activities offered for a session and the type of activity it is. They would also like to keep information about the start and end times for each session, the day of the week that it occurs on, the semester it is offered, and the location of the session. A session can be either a group or small group–a small group session is offered quarterly. Each session also has an instructor responsible for a specific class and a fitness monitor that overlooks a class. They also need to track how many clients attend each session.
-
-In addition to group sessions, Recreational Sports also offers personal training sessions. Each session is personalized, so they would like to track the session date, start time, and end time for each session. An instructor can teach many personal training sessions and a client can sign up for multiple sessions.
-
-The Department of Recreational Sports has many different clients that sign up for the activities that they offer. They would like to store information about a client such as their name, email, and phone number. Recreational sports are offered to all types of clients such as students, faculty, and alumni/UGA affiliates. Based on the type of client they are, a client will pay a different amount according to the package type they choose to purchase. For group, small group, and personal training sessions; there is a fixed price for the 3 standard types of clients.
-
-On certain occasions, there is a discount that is applicable to group session packages. The Department of Recreational Sports offers an early semester discount that takes 25% the original price for all types of group packages. Halfway through the semester, the department also offers a 50% discount on the original price for all types of group packages.
 
 ![App Screenshot](https://github.com/colbycannizzaro/MIST4610GroupProject1/blob/25ca4b8bba8a1a8e8b96cb06319b74019f6be103/unknown.png)
 ## Data Dictionary:
