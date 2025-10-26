@@ -8,7 +8,7 @@ A brief description of what this project does and who it's for
 ## Team Members:
 1. Armaan Bhasin [@armaanbhasin](https://www.github.com/taralbpatel)
 2. Colby Cannizzaro [@colbycannizzaro](https://github.com/colbycannizzaro/MIST4610GroupProject1)
-3. Evan Liu [@evanliu](https://www.github.com/RileyDoggett)
+3. Evan Liu [@evanliu](https://github.com/evanl0l/4610)
 4. Theresa Nguyen[@ripleykurtz](https://www.github.com/RipleyKurtz)
 5. Allison Ramirez Diaz [@sequoyethsimpson](https://www.github.com/quoysimpson)
 
