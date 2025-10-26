@@ -106,6 +106,7 @@ This query can be used to identify information on a specific class session as lo
 
 
 
+<img width="1195" height="702" alt="datamodel" src="https://github.com/user-attachments/assets/8db5f988-70d9-422d-b4a1-503cbf3cbdb7" />
 
 
 
