@@ -5,11 +5,11 @@
 62755 Group 5
 
 ## Team Members:
-1. Armaan Bhasin [@armaanbhasin](https://www.github.com/taralbpatel)
+1. Armaan Bhasin [@armaanbhasin](https://github.com/ArmaanBhasin698/Group5_ArmaanBhasin/tree/main)
 2. Colby Cannizzaro [@colbycannizzaro](https://github.com/colbycannizzaro/MIST4610GroupProject1)
 3. Evan Liu [@evanliu](https://github.com/evanl0l/4610)
-4. Theresa Nguyen[@theresanguyen](https://www.github.com/RipleyKurtz)
-5. Allison Ramirez Diaz [@allisonramirezdiaz](https://www.github.com/quoysimpson)
+4. Theresa Nguyen[@theresanguyen](https://github.com/theresaanguyen/MIST4610)
+5. Allison Ramirez Diaz [@allisonramirezdiaz](https://github.com/agr56264/MIST4610_GROUP5_Project1)
 
 ## Scenario Description:
 The UGA Department of Recreational Sports in the Division of Student Affairs wants to create a database that keeps track of information about the various sports sessions offered, the staff that run the activities, and the clients that wish to participate in these activities. 
@@ -64,32 +64,30 @@ Class_session has a 1-1 identifying relationship with class_type; a sports sessi
 <img width="660" height="336" alt="image" src="https://github.com/user-attachments/assets/786ec467-bde3-4238-a80e-d81467ec5a15" />
 
 ## Queries:
-<img width="638" height="483" alt="image" src="https://github.com/user-attachments/assets/9a009fbb-9404-4453-bdc7-61a4382d09d5" />
-
 USE ns_F25MIST4610_62755_Group5;
 
 ### Simple
-1. List the class types offered
+1. List the class types offered.
 
 <img width="627" height="219" alt="image" src="https://github.com/user-attachments/assets/2db468af-b94b-4c65-a3cc-c60749450b1e" />
 
 
 This query provides a summary of the different activity categories that are offered by the Department of Recreational Sports, making it quick for a manager to observe.
 
-2. List all client information - Theresa
+2. List all client information.
 
 <img width="625" height="302" alt="image" src="https://github.com/user-attachments/assets/501a27b9-1ea7-41d1-bb48-809965d05c0f" />
 
 
 This query provides the necessary information about the clients of Recreational Sports that a manager would need to store.
 
-3. List classes on a Tuesday in the afternoon (12pm–7pm)
+3. List classes on a Tuesday in the afternoon (12pm–7pm).
 
 <img width="626" height="315" alt="image" src="https://github.com/user-attachments/assets/d082b9c5-c455-43cd-aefb-b58bcfdf0c69" />
 
 From a managerial perspective, this query helps identify which classes are scheduled in the afternoon on Tuesdays. Managers can use this to balance instructor workloads, allocate resources and ensure classes are spread evenly throughout the day.
 
-4. List average package prices of clients that attend more than five classes a week.-Evan
+4. List average package prices of clients that attend more than five classes a week.
 
 <img width="626" height="312" alt="image" src="https://github.com/user-attachments/assets/7bbb3f2f-d9a0-4c85-8c93-8ceecb0499da" />
 
@@ -97,37 +95,37 @@ This query provides important information about clients who attend a higher numb
 
 ### Complex
 
-5. List the contact information including name, number, and email of all staff that have the ACE certification - Allison
+5. List the contact information including name, number, and email of all staff that have the ACE certification.
 
 <img width="625" height="234" alt="image" src="https://github.com/user-attachments/assets/d3f2da61-e57a-4b14-b459-702e0165072f" />
 
 This query lists information for any staff member that has an ACE certification, which will be useful from a managerial perspective to identify specific staff members needed for classes requiring the ACE certification. This query can also be edited to identify staff members with other certifications. 
 
-6. List all clients who have come to more than 5 group fitness class 
+6. List all clients who have come to more than 5 group fitness class.
 
 <img width="624" height="243" alt="image" src="https://github.com/user-attachments/assets/4f03f2fe-f6e2-4633-93c8-caaf793e1a26" />
 
 This query is helpful from a managerial perspective to identify repeat clients for group fitness classes.
 
-7. List all students who have taken a morning yoga class and morning cycle class before 
+7. List all students who have taken a morning yoga class and morning cycle class before. 
 
 <img width="625" height="162" alt="image" src="https://github.com/user-attachments/assets/b05eab44-a651-430c-8f4e-772413f926c1" />
 
 From a managerial perspective, UGA Recreational Sports likes to see which classes are popular among students to know if they are worth having. This query returns the number of students that attended cycling classes on Thursdays.  
 
-8. List the client who attended both yoga sessions on September 20th, 2025. - Colby
+8. List the client who attended both yoga sessions on September 20th, 2025.
 
 <img width="626" height="194" alt="image" src="https://github.com/user-attachments/assets/c6734187-d568-4d4e-945b-338f3c0cd5d6" />
 
 From a managerial perspective, this query helps us identify highly engaged clients who attend multiple sessions of the same activity in one day. We wanted to see if there were any clients committed enough to attend two sessions in one day.
 
-9. List the most active client's based of attendance who have attended to more than 3 classes 
+9. List the most active client's based of attendance who have attended to more than 3 classes.
 
 <img width="625" height="309" alt="image" src="https://github.com/user-attachments/assets/66106007-ba47-44d5-96e1-3460abf8db71" />
 
 From a managerial perspective, UGA Recreational Sports can use this query to identify highly active clients, as frequent attendance predicts stronger retention. This helps managers target loyalty efforts and encourage continued engagement.
 
-10. List the instructor's name, the number of sessions, the date the session starts and the client's names based on the class being in Studio A
+10. List the instructor's name, the number of sessions, the date the session starts and the client's names based on the class being in Studio A.
 
 <img width="625" height="313" alt="image" src="https://github.com/user-attachments/assets/780fbaa6-0215-4563-8505-f47deb7aae60" />
 
